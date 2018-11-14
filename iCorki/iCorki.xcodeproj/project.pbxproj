@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09F77CB23E0A1B851683FF3F /* libPods-iCorkiUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0614A5CCA5DB7BA223328ADA /* libPods-iCorkiUITests.a */; };
+		48D0FAC1219C4BD100A58D16 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D0FAC0219C4BD100A58D16 /* AppDelegate.m */; };
+		48D0FAC4219C4BD100A58D16 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D0FAC3219C4BD100A58D16 /* ViewController.m */; };
+		48D0FAC7219C4BD100A58D16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48D0FAC5219C4BD100A58D16 /* Main.storyboard */; };
+		48D0FAC9219C4BD200A58D16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48D0FAC8219C4BD200A58D16 /* Assets.xcassets */; };
+		48D0FACC219C4BD200A58D16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48D0FACA219C4BD200A58D16 /* LaunchScreen.storyboard */; };
+		48D0FACF219C4BD200A58D16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D0FACE219C4BD200A58D16 /* main.m */; };
+		48D0FAD9219C4BD200A58D16 /* iCorkiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D0FAD8219C4BD200A58D16 /* iCorkiTests.m */; };
+		48D0FAE4219C4BD200A58D16 /* iCorkiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D0FAE3219C4BD200A58D16 /* iCorkiUITests.m */; };
+		48D0FAF3219C4DF400A58D16 /* ICPush.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D0FAF2219C4DF400A58D16 /* ICPush.m */; };
+		48D0FAF6219C4F9300A58D16 /* ICJPushEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D0FAF5219C4F9300A58D16 /* ICJPushEntity.m */; };
+		8110A52A042F8716CEABE2D5 /* libPods-iCorkiTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73A06110743AFA647F4DAD9E /* libPods-iCorkiTests.a */; };
+		EB69A4F25C9203CEEF9B8543 /* libPods-iCorki.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9101B59B04234C1DD10F2F83 /* libPods-iCorki.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48D0FAD5219C4BD200A58D16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48D0FAB4219C4BD100A58D16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48D0FABB219C4BD100A58D16;
+			remoteInfo = iCorki;
+		};
+		48D0FAE0219C4BD200A58D16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48D0FAB4219C4BD100A58D16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48D0FABB219C4BD100A58D16;
+			remoteInfo = iCorki;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0614A5CCA5DB7BA223328ADA /* libPods-iCorkiUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iCorkiUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B3F13E7434B89DEE3E278A7 /* Pods-iCorki.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCorki.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iCorki/Pods-iCorki.debug.xcconfig"; sourceTree = "<group>"; };
+		185877689815BD82A3B646AB /* Pods-iCorkiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCorkiTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iCorkiTests/Pods-iCorkiTests.release.xcconfig"; sourceTree = "<group>"; };
+		48D0FABC219C4BD100A58D16 /* iCorki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCorki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48D0FABF219C4BD100A58D16 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		48D0FAC0219C4BD100A58D16 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		48D0FAC2219C4BD100A58D16 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		48D0FAC3219C4BD100A58D16 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		48D0FAC6219C4BD100A58D16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		48D0FAC8219C4BD200A58D16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48D0FACB219C4BD200A58D16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		48D0FACD219C4BD200A58D16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48D0FACE219C4BD200A58D16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		48D0FAD4219C4BD200A58D16 /* iCorkiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iCorkiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48D0FAD8219C4BD200A58D16 /* iCorkiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iCorkiTests.m; sourceTree = "<group>"; };
+		48D0FADA219C4BD200A58D16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48D0FADF219C4BD200A58D16 /* iCorkiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iCorkiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48D0FAE3219C4BD200A58D16 /* iCorkiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iCorkiUITests.m; sourceTree = "<group>"; };
+		48D0FAE5219C4BD200A58D16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48D0FAF1219C4DF400A58D16 /* ICPush.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICPush.h; sourceTree = "<group>"; };
+		48D0FAF2219C4DF400A58D16 /* ICPush.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICPush.m; sourceTree = "<group>"; };
+		48D0FAF4219C4F9300A58D16 /* ICJPushEntity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICJPushEntity.h; sourceTree = "<group>"; };
+		48D0FAF5219C4F9300A58D16 /* ICJPushEntity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICJPushEntity.m; sourceTree = "<group>"; };
+		5501909CC7C6325075CF9E2C /* Pods-iCorkiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCorkiUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iCorkiUITests/Pods-iCorkiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		73A06110743AFA647F4DAD9E /* libPods-iCorkiTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iCorkiTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9101B59B04234C1DD10F2F83 /* libPods-iCorki.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iCorki.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C90303AFC4FA9BD5AED6F700 /* Pods-iCorki.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCorki.release.xcconfig"; path = "Pods/Target Support Files/Pods-iCorki/Pods-iCorki.release.xcconfig"; sourceTree = "<group>"; };
+		CCAAB743F5849413537C9E9C /* Pods-iCorkiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCorkiUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iCorkiUITests/Pods-iCorkiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CD2B3E315BC46959FADAEED2 /* Pods-iCorkiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCorkiTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iCorkiTests/Pods-iCorkiTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48D0FAB9219C4BD100A58D16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB69A4F25C9203CEEF9B8543 /* libPods-iCorki.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48D0FAD1219C4BD200A58D16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8110A52A042F8716CEABE2D5 /* libPods-iCorkiTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48D0FADC219C4BD200A58D16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09F77CB23E0A1B851683FF3F /* libPods-iCorkiUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32E167B7DB1581BC9859AEE5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B3F13E7434B89DEE3E278A7 /* Pods-iCorki.debug.xcconfig */,
+				C90303AFC4FA9BD5AED6F700 /* Pods-iCorki.release.xcconfig */,
+				CD2B3E315BC46959FADAEED2 /* Pods-iCorkiTests.debug.xcconfig */,
+				185877689815BD82A3B646AB /* Pods-iCorkiTests.release.xcconfig */,
+				5501909CC7C6325075CF9E2C /* Pods-iCorkiUITests.debug.xcconfig */,
+				CCAAB743F5849413537C9E9C /* Pods-iCorkiUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		48D0FAB3219C4BD100A58D16 = {
+			isa = PBXGroup;
+			children = (
+				48D0FABE219C4BD100A58D16 /* iCorki */,
+				48D0FAD7219C4BD200A58D16 /* iCorkiTests */,
+				48D0FAE2219C4BD200A58D16 /* iCorkiUITests */,
+				48D0FABD219C4BD100A58D16 /* Products */,
+				32E167B7DB1581BC9859AEE5 /* Pods */,
+				7DD7CB3D8C85D18032FF36AE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		48D0FABD219C4BD100A58D16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48D0FABC219C4BD100A58D16 /* iCorki.app */,
+				48D0FAD4219C4BD200A58D16 /* iCorkiTests.xctest */,
+				48D0FADF219C4BD200A58D16 /* iCorkiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48D0FABE219C4BD100A58D16 /* iCorki */ = {
+			isa = PBXGroup;
+			children = (
+				48D0FABF219C4BD100A58D16 /* AppDelegate.h */,
+				48D0FAC0219C4BD100A58D16 /* AppDelegate.m */,
+				48D0FAC2219C4BD100A58D16 /* ViewController.h */,
+				48D0FAC3219C4BD100A58D16 /* ViewController.m */,
+				48D0FAF1219C4DF400A58D16 /* ICPush.h */,
+				48D0FAF2219C4DF400A58D16 /* ICPush.m */,
+				48D0FAF4219C4F9300A58D16 /* ICJPushEntity.h */,
+				48D0FAF5219C4F9300A58D16 /* ICJPushEntity.m */,
+				48D0FAC5219C4BD100A58D16 /* Main.storyboard */,
+				48D0FAC8219C4BD200A58D16 /* Assets.xcassets */,
+				48D0FACA219C4BD200A58D16 /* LaunchScreen.storyboard */,
+				48D0FACD219C4BD200A58D16 /* Info.plist */,
+				48D0FACE219C4BD200A58D16 /* main.m */,
+			);
+			path = iCorki;
+			sourceTree = "<group>";
+		};
+		48D0FAD7219C4BD200A58D16 /* iCorkiTests */ = {
+			isa = PBXGroup;
+			children = (
+				48D0FAD8219C4BD200A58D16 /* iCorkiTests.m */,
+				48D0FADA219C4BD200A58D16 /* Info.plist */,
+			);
+			path = iCorkiTests;
+			sourceTree = "<group>";
+		};
+		48D0FAE2219C4BD200A58D16 /* iCorkiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				48D0FAE3219C4BD200A58D16 /* iCorkiUITests.m */,
+				48D0FAE5219C4BD200A58D16 /* Info.plist */,
+			);
+			path = iCorkiUITests;
+			sourceTree = "<group>";
+		};
+		7DD7CB3D8C85D18032FF36AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9101B59B04234C1DD10F2F83 /* libPods-iCorki.a */,
+				73A06110743AFA647F4DAD9E /* libPods-iCorkiTests.a */,
+				0614A5CCA5DB7BA223328ADA /* libPods-iCorkiUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48D0FABB219C4BD100A58D16 /* iCorki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48D0FAE8219C4BD200A58D16 /* Build configuration list for PBXNativeTarget "iCorki" */;
+			buildPhases = (
+				EF499F5A4181534CD489DE05 /* [CP] Check Pods Manifest.lock */,
+				48D0FAB8219C4BD100A58D16 /* Sources */,
+				48D0FAB9219C4BD100A58D16 /* Frameworks */,
+				48D0FABA219C4BD100A58D16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iCorki;
+			productName = iCorki;
+			productReference = 48D0FABC219C4BD100A58D16 /* iCorki.app */;
+			productType = "com.apple.product-type.application";
+		};
+		48D0FAD3219C4BD200A58D16 /* iCorkiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48D0FAEB219C4BD200A58D16 /* Build configuration list for PBXNativeTarget "iCorkiTests" */;
+			buildPhases = (
+				7236814A8CA27CA77D9E1ADA /* [CP] Check Pods Manifest.lock */,
+				48D0FAD0219C4BD200A58D16 /* Sources */,
+				48D0FAD1219C4BD200A58D16 /* Frameworks */,
+				48D0FAD2219C4BD200A58D16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48D0FAD6219C4BD200A58D16 /* PBXTargetDependency */,
+			);
+			name = iCorkiTests;
+			productName = iCorkiTests;
+			productReference = 48D0FAD4219C4BD200A58D16 /* iCorkiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		48D0FADE219C4BD200A58D16 /* iCorkiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48D0FAEE219C4BD200A58D16 /* Build configuration list for PBXNativeTarget "iCorkiUITests" */;
+			buildPhases = (
+				8109E4299C43A4498072FEC8 /* [CP] Check Pods Manifest.lock */,
+				48D0FADB219C4BD200A58D16 /* Sources */,
+				48D0FADC219C4BD200A58D16 /* Frameworks */,
+				48D0FADD219C4BD200A58D16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48D0FAE1219C4BD200A58D16 /* PBXTargetDependency */,
+			);
+			name = iCorkiUITests;
+			productName = iCorkiUITests;
+			productReference = 48D0FADF219C4BD200A58D16 /* iCorkiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48D0FAB4219C4BD100A58D16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = iCorki;
+				TargetAttributes = {
+					48D0FABB219C4BD100A58D16 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					48D0FAD3219C4BD200A58D16 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 48D0FABB219C4BD100A58D16;
+					};
+					48D0FADE219C4BD200A58D16 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 48D0FABB219C4BD100A58D16;
+					};
+				};
+			};
+			buildConfigurationList = 48D0FAB7219C4BD100A58D16 /* Build configuration list for PBXProject "iCorki" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48D0FAB3219C4BD100A58D16;
+			productRefGroup = 48D0FABD219C4BD100A58D16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48D0FABB219C4BD100A58D16 /* iCorki */,
+				48D0FAD3219C4BD200A58D16 /* iCorkiTests */,
+				48D0FADE219C4BD200A58D16 /* iCorkiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48D0FABA219C4BD100A58D16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48D0FACC219C4BD200A58D16 /* LaunchScreen.storyboard in Resources */,
+				48D0FAC9219C4BD200A58D16 /* Assets.xcassets in Resources */,
+				48D0FAC7219C4BD100A58D16 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48D0FAD2219C4BD200A58D16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48D0FADD219C4BD200A58D16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7236814A8CA27CA77D9E1ADA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iCorkiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8109E4299C43A4498072FEC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iCorkiUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF499F5A4181534CD489DE05 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iCorki-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48D0FAB8219C4BD100A58D16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48D0FAC4219C4BD100A58D16 /* ViewController.m in Sources */,
+				48D0FACF219C4BD200A58D16 /* main.m in Sources */,
+				48D0FAC1219C4BD100A58D16 /* AppDelegate.m in Sources */,
+				48D0FAF3219C4DF400A58D16 /* ICPush.m in Sources */,
+				48D0FAF6219C4F9300A58D16 /* ICJPushEntity.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48D0FAD0219C4BD200A58D16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48D0FAD9219C4BD200A58D16 /* iCorkiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48D0FADB219C4BD200A58D16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48D0FAE4219C4BD200A58D16 /* iCorkiUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48D0FAD6219C4BD200A58D16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48D0FABB219C4BD100A58D16 /* iCorki */;
+			targetProxy = 48D0FAD5219C4BD200A58D16 /* PBXContainerItemProxy */;
+		};
+		48D0FAE1219C4BD200A58D16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48D0FABB219C4BD100A58D16 /* iCorki */;
+			targetProxy = 48D0FAE0219C4BD200A58D16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		48D0FAC5219C4BD100A58D16 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48D0FAC6219C4BD100A58D16 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		48D0FACA219C4BD200A58D16 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48D0FACB219C4BD200A58D16 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48D0FAE6219C4BD200A58D16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		48D0FAE7219C4BD200A58D16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48D0FAE9219C4BD200A58D16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B3F13E7434B89DEE3E278A7 /* Pods-iCorki.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iCorki/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iCorki.iCorki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48D0FAEA219C4BD200A58D16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C90303AFC4FA9BD5AED6F700 /* Pods-iCorki.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iCorki/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iCorki.iCorki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		48D0FAEC219C4BD200A58D16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD2B3E315BC46959FADAEED2 /* Pods-iCorkiTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iCorkiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iCorki.iCorkiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iCorki.app/iCorki";
+			};
+			name = Debug;
+		};
+		48D0FAED219C4BD200A58D16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 185877689815BD82A3B646AB /* Pods-iCorkiTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iCorkiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iCorki.iCorkiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iCorki.app/iCorki";
+			};
+			name = Release;
+		};
+		48D0FAEF219C4BD200A58D16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5501909CC7C6325075CF9E2C /* Pods-iCorkiUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iCorkiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iCorki.iCorkiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iCorki;
+			};
+			name = Debug;
+		};
+		48D0FAF0219C4BD200A58D16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCAAB743F5849413537C9E9C /* Pods-iCorkiUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iCorkiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iCorki.iCorkiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iCorki;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48D0FAB7219C4BD100A58D16 /* Build configuration list for PBXProject "iCorki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48D0FAE6219C4BD200A58D16 /* Debug */,
+				48D0FAE7219C4BD200A58D16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48D0FAE8219C4BD200A58D16 /* Build configuration list for PBXNativeTarget "iCorki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48D0FAE9219C4BD200A58D16 /* Debug */,
+				48D0FAEA219C4BD200A58D16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48D0FAEB219C4BD200A58D16 /* Build configuration list for PBXNativeTarget "iCorkiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48D0FAEC219C4BD200A58D16 /* Debug */,
+				48D0FAED219C4BD200A58D16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48D0FAEE219C4BD200A58D16 /* Build configuration list for PBXNativeTarget "iCorkiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48D0FAEF219C4BD200A58D16 /* Debug */,
+				48D0FAF0219C4BD200A58D16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48D0FAB4219C4BD100A58D16 /* Project object */;
+}
